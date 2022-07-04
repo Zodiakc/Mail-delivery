@@ -14,6 +14,15 @@
 </head>
 
 <body>
+    <div class="menu-burger">
+        <ul class="menu-burger__list">
+            <li class="menu-burger__item"><a href="" class="menu-burger__link">Про нас</a><img src="img/cross-svgrepo-com.svg" class="menu-burger__cross" alt=""></li>
+            <li class="menu-burger__item"><a href="" class="menu-burger__link">Доставка</a></li>
+            <li class="menu-burger__item"><a href="" class="menu-burger__link">Блог</a></li>
+            <li class="menu-burger__item"><a href="" class="menu-burger__link">Контакты</a></li>
+            <li class="menu-burger__item"><a href="" class="menu-burger__link">Язык</a></li>
+        </ul>
+    </div>
     <div class="wrapper">
         <section class="delivery-section">
             <div class="container">
@@ -21,7 +30,7 @@
                     <img src="img/logo.png" alt="" class="header__logo">
                     <ul class="header__menu menu">
                         <li class=" menu__item menu__item--next"><a href="" class="menu__link">Про нас</a><img
-                                src="img/next 1.png" class="menu__next __menu-icon" alt="" onclick="showList()">
+                                src="img/next 1.png" class="menu__next __menu-icon" alt="">
                             <ul class="menu__about-sublist about-sublist">
                                 <li class="about-sublist__item"><a href="#" class="about-sublist__link">История</a></li>
                                 <li class="about-sublist__item"><a href="#" class="about-sublist__link">Галерея</a></li>
@@ -44,8 +53,14 @@
                         <a href="" class="telephones__num" tytelephonespe="tel">(044) 501-15-61</a>
                         <a href="" class="telephones__num" type="tel">(050) 477-05-05</a>
                         <a href="" class="telephones__num" type="tel">(067) 622-10-23</a>
+                        <a href="#" class="telphones_menu">tel</a>
                     </div>
                     <img src="img/shopping-cart (1) 1.png" alt="" class="header__basket">
+                    <div class="hamburger-lines">
+                        <a class="line line1"></a>
+                        <a class="line line2"></a>
+                        <a class="line line3"></a>
+                      </div>  
                 </header>
                 <div class="head-block">
                     <img class="head-block__image" src="img/Illustration1.svg"></img>
@@ -65,21 +80,21 @@
                             <h4 class="choice-block__head">Звідки</h4>
                             <div class="choice-block__input-block">
                                 <input type="text" class="choice-block__input" placeholder="Виберіть країну">
-                                <img src="img/Polygon 1.png" alt="" class="choice-block__arrow1">
+                                <img src="img/Polygon 1.png" alt="" class="choice-block__arrow">
                             </div>
                         </div>
                         <div class="delivery-block__whom choice-block">
                             <h4 class="choice-block__head">Куди</h4>
                             <div class="choice-block__input-block">
                                 <input type="text" class="choice-block__input" placeholder="Виберіть країну">
-                                <img src="img/Polygon 1.png" alt="" class="choice-block__arrow2">
+                                <img src="img/Polygon 1.png" alt="" class="choice-block__arrow">
                             </div>
                         </div>
                         <div class="delivery-block__type choice-block">
                             <h4 class="choice-block__head">Тип відправлення</h4>
                             <div class="choice-block__input-block">
                                 <input type="text" class="choice-block__input" placeholder="Виберіть тип відправлення">
-                                <img src="img/Polygon 1.png" alt="" class="choice-block__arrow3">
+                                <img src="img/Polygon 1.png" alt="" class="choice-block__arrow">
                             </div>
 
                         </div>
@@ -89,8 +104,9 @@
             </div>
         </section>
         <section class="confidence">
+
             <div class="container">
-                <h3 class="confidence__com-head">Нам <span class="__yellow">довіряють</span></h3>
+                <h3 class="confidence__com-head">Нам <a class="__yellow">довіряють</a></h3>
                 <div class="confidance__company-block company-block">
                     <div class="company-block__item"><img src="img/kone.png" alt="" class="company-block__image"></div>
                     <div class="company-block__item"><img src="img/metal 7.png" alt="" class="company-block__image">
@@ -109,7 +125,7 @@
                     </div>
 
                 </div>
-                <h3 class="globalpost-head"><span class="__yellow">GlobalPost</span> - офіційний представник компаній:
+                <h3 class="globalpost-head"><a class="__yellow">GlobalPost</a> - офіційний представник компаній:
                 </h3>
                 <div class="global-block">
                     <div class="global-block__item"><img src="img/ups.png" alt="" class="global-block__img"></div>
@@ -120,7 +136,7 @@
         </section>
         <section class="services">
             <div class="container">
-                <h3 class="services-head">Послуги, якими <span class="__yellow">ви можете </span> <br />скористатися
+                <h3 class="services-head">Послуги, якими <a class="__yellow">ви можете </a> <br />скористатися
                 </h3>
                 <div class="services-block">
                     <div class="services-block__item">
@@ -160,7 +176,7 @@
             <div class="container">
                 <h3 class="benefit-head">Чому наша доставка
                     </br>
-                    <span class="__yellow">вигідна для вас?</span>
+                    <a class="__yellow">вигідна для вас?</a>
                 </h3>
                 <div class="benefit-block">
                     <div class="benefit-block__item benifit-item">
@@ -186,7 +202,7 @@
                 <div class="time-block">
                     <div class="time-block__text-block">
                         <h4 class="time-block__head">Ми можемо і вміємо
-                            <span class="__yellow">доставляти швидко</span>
+                            <a class="__yellow">доставляти швидко</a>
                         </h4>
                         <ul class="time-block__list">
                             <li class="time-block__item">у той самий день</li>
@@ -199,7 +215,7 @@
         </section>
         <section class="low-section">
             <div class="container">
-                <h3 class="low-head">Ви <span class="__yellow">юридична особа</span> і шукаєте надійну кур’єрську
+                <h3 class="low-head">Ви <a class="__yellow">юридична особа</a> і шукаєте надійну кур’єрську
                     службу?</h3>
                 <h5 class="low-subtitle">Як почати співпрацю з нами? 3 простих кроки:</h5>
                 <div class="step-block">
@@ -248,6 +264,10 @@
         </section>
         <footer class="footer">
             <div class="container">
+                <div class="footer__media media">
+                    <a class="media__link media__about">Додатково</a>
+                    <a class="media__link media__contact">Контакти</a>
+                </div>
                 <div class="footer__wrapper">
                     <img src="img/gl 1.png" alt="" class="footer__logo">
                     <div class="footer__delivery-block">
@@ -283,17 +303,16 @@
                         </div>
                         <div class="footer__wrap-block">
                             <img src="img/Ellipse 48.png" alt="" class="footer__icon">
-                            <span class="footer__time-text">Пн-Нд 08:00-18:00</span>
+                            <a class="footer__time-text">Пн-Нд 08:00-18:00</a>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-    <div class="sf"> <div class="sds">
-    <div class="sdds"></div>
-    </div></div>
+    
     </div>
+
+    
     <script src="js/app.js"></script>
 </body>
-
 </html>
