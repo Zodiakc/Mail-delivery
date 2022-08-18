@@ -1,7 +1,12 @@
-let menuNExt = document.querySelector(".menu__next");
-menuNExt.addEventListener("click", ()=>{
-    menuNExt.classList.toggle("__transform");
-})
+const aboutSublist = document.querySelector(".about-sublist");
+let menuNExt = document.querySelectorAll(".menu__next");
+menuNExt.forEach(element => {
+    element.addEventListener("click", ()=>{
+        element.classList.toggle("__transform")
+    })
+    })
+
+
 const menuBurger = document.querySelector('.hamburger-lines');
 const showedMenuBurger = document.querySelector(".menu-burger");
 const menuBurgerList = document.querySelector(".menu-burger__list");
